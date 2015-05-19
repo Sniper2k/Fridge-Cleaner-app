@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C90E1B4173EB2AB006383CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C90E1B3173EB2AB006383CF /* Cocoa.framework */; };
+		3C90E1BE173EB2AB006383CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C90E1BC173EB2AB006383CF /* InfoPlist.strings */; };
+		3C90E1C0173EB2AB006383CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1BF173EB2AB006383CF /* main.m */; };
+		3C90E1C4173EB2AB006383CF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3C90E1C2173EB2AB006383CF /* Credits.rtf */; };
+		3C90E1C7173EB2AB006383CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1C6173EB2AB006383CF /* AppDelegate.m */; };
+		3C90E1CA173EB2AB006383CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C90E1C8173EB2AB006383CF /* MainMenu.xib */; };
+		3C90E1D2173EB2AC006383CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C90E1D1173EB2AC006383CF /* SenTestingKit.framework */; };
+		3C90E1D3173EB2AC006383CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C90E1B3173EB2AB006383CF /* Cocoa.framework */; };
+		3C90E1DB173EB2AC006383CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C90E1D9173EB2AC006383CF /* InfoPlist.strings */; };
+		3C90E1DE173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1DD173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.m */; };
+		3C90E1E8173EC068006383CF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C90E1E7173EC068006383CF /* libsqlite3.0.dylib */; };
+		3C90E1ED173EC41E006383CF /* Ingridient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1EA173EC41E006383CF /* Ingridient.m */; };
+		3C90E1EE173EC41E006383CF /* Ingridient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1EA173EC41E006383CF /* Ingridient.m */; };
+		3C90E1EF173EC41E006383CF /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1EC173EC41E006383CF /* Recipe.m */; };
+		3C90E1F0173EC41E006383CF /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E1EC173EC41E006383CF /* Recipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C90E1D4173EB2AC006383CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C90E1A8173EB2AB006383CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C90E1AF173EB2AB006383CF;
+			remoteInfo = WhatsInTheFridgeDatabaseEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C90E1B0173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsInTheFridgeDatabaseEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C90E1B3173EB2AB006383CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3C90E1B6173EB2AB006383CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3C90E1B7173EB2AB006383CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C90E1B8173EB2AB006383CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C90E1BB173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatsInTheFridgeDatabaseEditor-Info.plist"; sourceTree = "<group>"; };
+		3C90E1BD173EB2AB006383CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C90E1BF173EB2AB006383CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C90E1C1173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatsInTheFridgeDatabaseEditor-Prefix.pch"; sourceTree = "<group>"; };
+		3C90E1C3173EB2AB006383CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3C90E1C5173EB2AB006383CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C90E1C6173EB2AB006383CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C90E1C9173EB2AB006383CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3C90E1D0173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsInTheFridgeDatabaseEditorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C90E1D1173EB2AC006383CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C90E1D8173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatsInTheFridgeDatabaseEditorTests-Info.plist"; sourceTree = "<group>"; };
+		3C90E1DA173EB2AC006383CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C90E1DC173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsInTheFridgeDatabaseEditorTests.h; sourceTree = "<group>"; };
+		3C90E1DD173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsInTheFridgeDatabaseEditorTests.m; sourceTree = "<group>"; };
+		3C90E1E7173EC068006383CF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3C90E1E9173EC41E006383CF /* Ingridient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingridient.h; sourceTree = "<group>"; };
+		3C90E1EA173EC41E006383CF /* Ingridient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingridient.m; sourceTree = "<group>"; };
+		3C90E1EB173EC41E006383CF /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		3C90E1EC173EC41E006383CF /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C90E1AD173EB2AB006383CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90E1E8173EC068006383CF /* libsqlite3.0.dylib in Frameworks */,
+				3C90E1B4173EB2AB006383CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C90E1CC173EB2AC006383CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90E1D2173EB2AC006383CF /* SenTestingKit.framework in Frameworks */,
+				3C90E1D3173EB2AC006383CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C90E1A7173EB2AB006383CF = {
+			isa = PBXGroup;
+			children = (
+				3C90E1B9173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor */,
+				3C90E1D6173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests */,
+				3C90E1B2173EB2AB006383CF /* Frameworks */,
+				3C90E1B1173EB2AB006383CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C90E1B1173EB2AB006383CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1B0173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor.app */,
+				3C90E1D0173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C90E1B2173EB2AB006383CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1E7173EC068006383CF /* libsqlite3.0.dylib */,
+				3C90E1B3173EB2AB006383CF /* Cocoa.framework */,
+				3C90E1D1173EB2AC006383CF /* SenTestingKit.framework */,
+				3C90E1B5173EB2AB006383CF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C90E1B5173EB2AB006383CF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1B6173EB2AB006383CF /* AppKit.framework */,
+				3C90E1B7173EB2AB006383CF /* CoreData.framework */,
+				3C90E1B8173EB2AB006383CF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3C90E1B9173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1E9173EC41E006383CF /* Ingridient.h */,
+				3C90E1EA173EC41E006383CF /* Ingridient.m */,
+				3C90E1EB173EC41E006383CF /* Recipe.h */,
+				3C90E1EC173EC41E006383CF /* Recipe.m */,
+				3C90E1C5173EB2AB006383CF /* AppDelegate.h */,
+				3C90E1C6173EB2AB006383CF /* AppDelegate.m */,
+				3C90E1C8173EB2AB006383CF /* MainMenu.xib */,
+				3C90E1BA173EB2AB006383CF /* Supporting Files */,
+			);
+			path = WhatsInTheFridgeDatabaseEditor;
+			sourceTree = "<group>";
+		};
+		3C90E1BA173EB2AB006383CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1BB173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor-Info.plist */,
+				3C90E1BC173EB2AB006383CF /* InfoPlist.strings */,
+				3C90E1BF173EB2AB006383CF /* main.m */,
+				3C90E1C1173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor-Prefix.pch */,
+				3C90E1C2173EB2AB006383CF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C90E1D6173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1DC173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.h */,
+				3C90E1DD173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.m */,
+				3C90E1D7173EB2AC006383CF /* Supporting Files */,
+			);
+			path = WhatsInTheFridgeDatabaseEditorTests;
+			sourceTree = "<group>";
+		};
+		3C90E1D7173EB2AC006383CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C90E1D8173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests-Info.plist */,
+				3C90E1D9173EB2AC006383CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C90E1AF173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C90E1E1173EB2AC006383CF /* Build configuration list for PBXNativeTarget "WhatsInTheFridgeDatabaseEditor" */;
+			buildPhases = (
+				3C90E1AC173EB2AB006383CF /* Sources */,
+				3C90E1AD173EB2AB006383CF /* Frameworks */,
+				3C90E1AE173EB2AB006383CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsInTheFridgeDatabaseEditor;
+			productName = WhatsInTheFridgeDatabaseEditor;
+			productReference = 3C90E1B0173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C90E1CF173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C90E1E4173EB2AC006383CF /* Build configuration list for PBXNativeTarget "WhatsInTheFridgeDatabaseEditorTests" */;
+			buildPhases = (
+				3C90E1CB173EB2AC006383CF /* Sources */,
+				3C90E1CC173EB2AC006383CF /* Frameworks */,
+				3C90E1CD173EB2AC006383CF /* Resources */,
+				3C90E1CE173EB2AC006383CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C90E1D5173EB2AC006383CF /* PBXTargetDependency */,
+			);
+			name = WhatsInTheFridgeDatabaseEditorTests;
+			productName = WhatsInTheFridgeDatabaseEditorTests;
+			productReference = 3C90E1D0173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C90E1A8173EB2AB006383CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Sniper;
+			};
+			buildConfigurationList = 3C90E1AB173EB2AB006383CF /* Build configuration list for PBXProject "WhatsInTheFridgeDatabaseEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C90E1A7173EB2AB006383CF;
+			productRefGroup = 3C90E1B1173EB2AB006383CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C90E1AF173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor */,
+				3C90E1CF173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C90E1AE173EB2AB006383CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90E1BE173EB2AB006383CF /* InfoPlist.strings in Resources */,
+				3C90E1C4173EB2AB006383CF /* Credits.rtf in Resources */,
+				3C90E1CA173EB2AB006383CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C90E1CD173EB2AC006383CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90E1DB173EB2AC006383CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C90E1CE173EB2AC006383CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C90E1AC173EB2AB006383CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90E1C0173EB2AB006383CF /* main.m in Sources */,
+				3C90E1C7173EB2AB006383CF /* AppDelegate.m in Sources */,
+				3C90E1ED173EC41E006383CF /* Ingridient.m in Sources */,
+				3C90E1EF173EC41E006383CF /* Recipe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C90E1CB173EB2AC006383CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90E1DE173EB2AC006383CF /* WhatsInTheFridgeDatabaseEditorTests.m in Sources */,
+				3C90E1EE173EC41E006383CF /* Ingridient.m in Sources */,
+				3C90E1F0173EC41E006383CF /* Recipe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C90E1D5173EB2AC006383CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C90E1AF173EB2AB006383CF /* WhatsInTheFridgeDatabaseEditor */;
+			targetProxy = 3C90E1D4173EB2AC006383CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C90E1BC173EB2AB006383CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C90E1BD173EB2AB006383CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C90E1C2173EB2AB006383CF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C90E1C3173EB2AB006383CF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3C90E1C8173EB2AB006383CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C90E1C9173EB2AB006383CF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3C90E1D9173EB2AC006383CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C90E1DA173EB2AC006383CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C90E1DF173EB2AC006383CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C90E1E0173EB2AC006383CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C90E1E2173EB2AC006383CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsInTheFridgeDatabaseEditor/WhatsInTheFridgeDatabaseEditor-Prefix.pch";
+				INFOPLIST_FILE = "WhatsInTheFridgeDatabaseEditor/WhatsInTheFridgeDatabaseEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C90E1E3173EB2AC006383CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsInTheFridgeDatabaseEditor/WhatsInTheFridgeDatabaseEditor-Prefix.pch";
+				INFOPLIST_FILE = "WhatsInTheFridgeDatabaseEditor/WhatsInTheFridgeDatabaseEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C90E1E5173EB2AC006383CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatsInTheFridgeDatabaseEditor.app/Contents/MacOS/WhatsInTheFridgeDatabaseEditor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsInTheFridgeDatabaseEditor/WhatsInTheFridgeDatabaseEditor-Prefix.pch";
+				INFOPLIST_FILE = "WhatsInTheFridgeDatabaseEditorTests/WhatsInTheFridgeDatabaseEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3C90E1E6173EB2AC006383CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatsInTheFridgeDatabaseEditor.app/Contents/MacOS/WhatsInTheFridgeDatabaseEditor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsInTheFridgeDatabaseEditor/WhatsInTheFridgeDatabaseEditor-Prefix.pch";
+				INFOPLIST_FILE = "WhatsInTheFridgeDatabaseEditorTests/WhatsInTheFridgeDatabaseEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C90E1AB173EB2AB006383CF /* Build configuration list for PBXProject "WhatsInTheFridgeDatabaseEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C90E1DF173EB2AC006383CF /* Debug */,
+				3C90E1E0173EB2AC006383CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C90E1E1173EB2AC006383CF /* Build configuration list for PBXNativeTarget "WhatsInTheFridgeDatabaseEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C90E1E2173EB2AC006383CF /* Debug */,
+				3C90E1E3173EB2AC006383CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C90E1E4173EB2AC006383CF /* Build configuration list for PBXNativeTarget "WhatsInTheFridgeDatabaseEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C90E1E5173EB2AC006383CF /* Debug */,
+				3C90E1E6173EB2AC006383CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C90E1A8173EB2AB006383CF /* Project object */;
+}
